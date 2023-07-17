@@ -7,9 +7,9 @@
   <body>
 
     <div style="text-align: right;">
-      <a href="index.html">Home</a>
-      <a href="tags.html" style="margin: 0 0 0 10px;">HTML Tags</a>
-      <a href="moby_dick.html" style="margin: 0 0 0 10px;">Moby Dick</a>
+      <a style="text-decoration: none; padding: 10px" href="index.html">Home</a>
+      <a style="text-decoration: none; padding: 10px"href="tags.html" style="margin: 0 0 0 10px;">HTML Tags</a>
+      <a style="text-decoration: none; padding: 10px"href="moby_dick.html" style="margin: 0 0 0 10px;">Moby Dick</a>
     </div>
 
     <h1>Important HTML tags</h1>
@@ -74,9 +74,9 @@
         <td style="padding: 10px">Divide block element</td>
       </tr>
       <tr>
-        <td style="padding: 10px"><code>h1</code>-<code>h6</code></td>
-        <td style="padding: 10px">heading</td>
-        <td style="padding: 10px">header block element</td>
+        <td style="padding: 10px"><code>header</code></td>
+        <td style="padding: 10px">header</td>
+        <td style="padding: 10px">isolate the head text</td>
       </tr>
       <tr>
         <td style="padding: 10px"><code>ol</code></td>
@@ -87,6 +87,16 @@
         <td style="padding: 10px"><code>ul</code></td>
         <td style="padding: 10px">unordered list</td>
         <td style="padding: 10px">creates unordered list</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px"><code>blockquote</code></td>
+        <td style="padding: 10px">blockquote</td>
+        <td style="padding: 10px">include quotations</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px"><code>br</code></td>
+        <td style="padding: 10px">break</td>
+        <td style="padding: 10px">breaks the line</td>
       </tr>
     </table>
 
@@ -102,51 +112,79 @@
       <th>Result</th>
      </tr>
      <tr>
-       <td><code>em</code></td>
-       <td>emphasized</td>
-       <td>make emphasized text</td>
-       <td><code>&lt;em&gt; technical sophistication&lt;/em&gt; </code></td>
-       <td><em>technical sophistication</em></td>
+       <td style="padding: 10px"><code>em</code></td>
+       <td style="padding: 10px">emphasized</td>
+       <td style="padding: 10px">make emphasized text</td>
+       <td style="padding: 10px"><code>&lt;em&gt; technical sophistication&lt;/em&gt; </code></td>
+       <td style="padding: 10px"><em>technical sophistication</em></td>
       </tr>
       <tr>
-        <td><code>strong</code></td>
-        <td>strong</td>
-        <td>make strong text</td>
-        <td><code>&lt;strong&gt; at least a billion people&lt;/strong&gt;</code></td>
-        <td><strong>FILL_IN</strong></td>
+        <td style="padding: 10px"><code>strong</code></td>
+        <td style="padding: 10px">strong</td>
+        <td style="padding: 10px">make strong text</td>
+        <td style="padding: 10px"><code>&lt;strong&gt; at least a billion people&lt;/strong&gt;</code></td>
+        <td style="padding: 10px"><strong>FILL_IN</strong></td>
       </tr>
       <tr>
-        <td><code>a</code></td>
-        <td>anchor</td>
-        <td>make hyperlink</td>
-        <td><code>&lt a href="https://learnenough.com/"&gt; Learn Enough&lt;/a&gt;</code></td>
-        <td><a href="https://learnenough.com/">Learn Enough</a></td>
+        <td style="padding: 10px"><code>a</code></td>
+        <td style="padding: 10px">anchor</td>
+        <td style="padding: 10px">make hyperlink</td>
+        <td style="padding: 10px"><code>&lt a href="https://learnenough.com/"&gt; Learn Enough&lt;/a&gt;</code></td>
+        <td style="padding: 10px"><a href="https://learnenough.com/">Learn Enough</a></td>
       </tr>
       <tr>
-        <td><code>img</code></td>
-        <td>image</td>
-        <td>include an image</td>
-        <td><code>&lt;img src="https://bit.ly/1MZAFuQ" alt="Micheal Hartl"&gt;</code></td>
-        <td><img src="https://bit.ly/1MZAFuQ" alt="Micheal Hartl"></td>
+        <td style="padding: 10px"><code>img</code></td>
+        <td style="padding: 10px">image</td>
+        <td style="padding: 10px">include an image</td>
+        <td style="padding: 10px"><code>&lt;img src="https://bit.ly/1MZAFuQ" alt="Micheal Hartl"&gt;</code></td>
+        <td style="padding: 10px"><img src="https://bit.ly/1MZAFuQ" alt="Micheal Hartl"></td>
       </tr>
       <tr>
-        <td><code>code</code></td>
-        <td>code syntax</td>
-        <td>display peices of markup</td>
-        <td><code>&lt;code&gt;FILL_IN&lt;code&gt;</code></td>
-        <td><code>&lt;strong&gt;FILL_IN&lt;strong&gt;</code></td>
+        <td style="padding: 10px"><code>code</code></td>
+        <td style="padding: 10px">code syntax</td>
+        <td style="padding: 10px">display peices of markup</td>
+        <td style="padding: 10px"><code>&lt;code&gt;FILL_IN&lt;code&gt;</code></td>
+        <td style="padding: 10px"><code>&lt;strong&gt;FILL_IN&lt;strong&gt;</code></td>
        <tr>
-        <td><code>span</code></td>
-        <td>span</td>
-        <td>inline element</td>
+        <td style="padding: 10px"><code>span</code></td>
+        <td style="padding: 10px">span</td>
+        <td style="padding: 10px">inline element</td>
       </tr>
       <tr>
-        <td><code>li</code></td>
-        <td>list</td>
-        <td>list items</td>
-        <td><code>&lt;li&gt;cheesecake&lt;li&gt;</code></td>
-        <td><li>cheesecake</li></td>
+        <td style="padding: 10px"><code>li</code></td>
+        <td style="padding: 10px">list</td>
+        <td style="padding: 10px">list items</td>
+        <td style="padding: 10px"><code>&lt;li&gt;cheesecake&lt;li&gt;</code></td>
+        <td style="padding: 10px"><li>cheesecake</li></td>
       </tr>
+    </table>
+
+      <h3>Document Tags</h3>
+      <table>
+        <tr>
+          <td style="padding: 10px">Tag</td>
+          <td style="padding: 10px">Purpose</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px"><code>html</code></td>
+          <td style="padding: 10px">indicate the beginning and end of an HTML element in and HTML document.</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px"><code>head</code></td>
+          <td style="padding: 10px">define the head section of an HTML document</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px"><code>body</code></td>
+          <td style="padding: 10px">define the body section of an HTML document</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px"><code>title</code></td>
+          <td style="padding: 10px">give web page a title</td>
+        </tr>
+        <tr>
+          <td style="padding: 10px"><code>meta</code></td>
+          <td style="padding: 10px">help tell search engines what a web page is about</td>
+        </tr>
     </table>
   </body>
 </html>
